@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+form input {
+  display: block;
+  margin: 10px 0;
+}

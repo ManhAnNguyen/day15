@@ -1,0 +1,26 @@
+form .input {
+  border: 1px solid gray;
+  padding: 10px 20px;
+  margin: 10px 0;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+}
+
+form .input input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+form .input .eye {
+  cursor: pointer;
+}
+form .input .eye .hidden-password {
+  display: none;
+}
+form .input .show-eye-hidden .hidden-password {
+  display: block;
+}
+form .input .show-eye-hidden .show-password {
+  display: none;
+}
